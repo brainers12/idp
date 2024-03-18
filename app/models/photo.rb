@@ -1,5 +1,3 @@
-# app/models/photo.rb
-
 class Photo < ApplicationRecord
     belongs_to :user
     belongs_to :post
