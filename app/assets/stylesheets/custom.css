@@ -172,3 +172,65 @@ table {
     line-height: 1.6; /* Increase line height for readability */
   }
   
+
+ 
+/* app/assets/stylesheets/custom.css */
+
+/* User details */
+.user-details {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .user-details h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .user-details p {
+    margin: 0;
+  }
+  
+  /* Posts section */
+  .posts-section {
+    margin-bottom: 20px;
+  }
+  
+  .posts-section h2 {
+    font-size: 20px;
+  }
+  
+  .posts-section .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .posts-section .post h3 {
+    margin-top: 0;
+  }
+  
+  .posts-section .post p {
+    margin-bottom: 0;
+  }
+  
+  /* Comments section */
+  .comments-section {
+    margin-bottom: 20px;
+  }
+  
+  .comments-section h2 {
+    font-size: 20px;
+  }
+  
+  .comments-section .comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comments-section .comment p {
+    margin: 0;
+  }
+  
