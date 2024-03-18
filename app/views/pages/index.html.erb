@@ -1,24 +1,32 @@
 <!-- app/views/pages/index.html.erb -->
 
-<h1>Data Collection</h1>
+<h1 class="heading-primary">Data Collection</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Email</th>
-      <!-- Add more columns as needed -->
-    </tr>
-  </thead>
-  <tbody>
-    <% @users.each do |user| %>
+<div class="container-custom">
+  <table class="table-custom">
+    <thead>
       <tr>
-        <td><%= user.id %></td>
-        <td><%= user.name %></td>
-        <td><%= user.email %></td>
-        <!-- Add more columns as needed -->
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      <% @users.each do |user| %>
+        <tr>
+          <td><%= user.id %></td>
+          <td><%= user.name %></td>
+          <td><%= user.email %></td>
+          <td>
+            <%= link_to 'View Posts', user_posts_path(user), class: 'btn btn-primary btn-custom' %>
+            <%= link_to 'View Comments', user_comments_path(user), class: 'btn btn-secondary btn-custom' %>
+            <%= link_to 'Show More', user_path(user), class: 'btn btn-primary' %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<%= will_paginate @users %>

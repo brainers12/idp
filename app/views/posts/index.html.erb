@@ -1,0 +1,24 @@
+<!-- app/views/posts/index.html.erb -->
+
+<h1>Posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Body</th>
+      <!-- Add more columns if needed -->
+    </tr>
+  </thead>
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.id %></td>
+        <td><%= post.title %></td>
+        <td><%= post.body %></td>
+        <!-- Add more columns if needed -->
+      </tr>
+    <% end %>
+  </tbody>
+</table>

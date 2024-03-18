@@ -1,0 +1,174 @@
+/* app/assets/stylesheets/custom.css */
+
+/* app/assets/stylesheets/custom.css */
+
+.heading-primary {
+    color: #333;
+  }
+  
+  .container-custom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .table-custom {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-custom th,
+  .table-custom td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .table-custom th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0056b3;
+  }
+
+
+/* Custom.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .pagination a, .pagination span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  .pagination .current_page {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .pagination a:hover, .pagination a:focus {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+  }
+  
+  .pagination .disabled {
+    color: #6c757d;
+    pointer-events: none;
+  }
+
+  /* Assuming you've added classes 'nav-home' and 'nav-about' to your 'Home' and 'About' links respectively */
+
+.nav-home, .nav-about {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  
+  .nav-home:hover, .nav-about:hover {
+    background-color: #e9ecef;
+    border-color: #ddd;
+  }
+  
+  
+  
+  body {
+    margin-top: 40px; /* Adjust as needed to avoid content being hidden behind the nav bar */
+  }
+  
+  .nav-top {
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff; /* Background color */
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Shadow for some depth */
+    z-index: 1000; /* Ensure it's above other items */
+  }
+  
+  .nav-top ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start; /* Change to center if you want it centered */
+  }
+  
+  .nav-top li {
+    float: left;
+  }
+  
+  .nav-top li a.nav-link {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #007bff; /* Text color */
+  }
+  
+  .nav-top li a.nav-link:hover {
+    background-color: #ddd; /* Hover background color */
+  }
+
+ /* Custom.css - Styles for posts table */
+
+/* Style the table itself */
+table {
+    width: 100%; /* Make the table use all available width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Add some spacing from content above */
+  }
+  
+  /* Style the table headers */
+  table thead th {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Dark text for contrast */
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Add padding for spacing inside the cells */
+    border-bottom: 2px solid #dee2e6; /* Add a bottom border to header */
+  }
+  
+  /* Style the table body rows */
+  table tbody tr {
+    border-bottom: 1px solid #dee2e6; /* Add a subtle border to each row */
+  }
+  
+  /* Style the table body data */
+  table tbody td {
+    padding: 10px; /* Padding inside each data cell */
+    color: #555; /* Slightly lighter text color for the body */
+  }
+  
+  /* Add a hover effect on table rows */
+  table tbody tr:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+  }
+  
+  /* Increase legibility of text in the body */
+  table tbody td {
+    font-size: 0.9em; /* Reduce the font size slightly */
+    line-height: 1.6; /* Increase line height for readability */
+  }
+  

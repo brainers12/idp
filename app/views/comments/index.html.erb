@@ -1,0 +1,24 @@
+<!-- app/views/comments/index.html.erb -->
+
+<h1>Comments</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>User</th>
+      <th>Body</th>
+      <!-- Add more columns if needed -->
+    </tr>
+  </thead>
+  <tbody>
+    <% @comments.each do |comment| %>
+      <tr>
+        <td><%= comment.id %></td>
+        <td><%= comment.user.name %></td>
+        <td><%= comment.body %></td>
+        <!-- Add more columns if needed -->
+      </tr>
+    <% end %>
+  </tbody>
+</table>

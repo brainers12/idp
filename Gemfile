@@ -25,6 +25,13 @@ gem "stimulus-rails"
 
 gem "faker"
 
+gem 'will_paginate'
+
+gem 'sassc-rails'
+
+gem 'httparty'
+
+gem 'bootstrap', '~> 5.1', '>= 5.1.0'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 

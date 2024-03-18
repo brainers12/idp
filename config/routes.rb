@@ -8,4 +8,10 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   # Defines the root path route ("/")
   # root "posts#index"
+  resources :users, only: [] do
+    get 'posts', to: 'posts#index'
+    get 'comments', to: 'comments#index'
+  end
+
+  resources :users, only: [:show]
 end

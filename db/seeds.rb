@@ -28,4 +28,7 @@ Post.all.each do |post|
   end
 end
 
+
+
+
 puts "Database seeding completed!"
