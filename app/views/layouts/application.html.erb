@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Idp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+   
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'custom' %>
+    
     <!-- Bootstrap CSS -->
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
@@ -21,7 +23,7 @@
       <ul>
         <li><%= link_to 'Home', index_path, class: 'nav-link' %></li>
         <li><%= link_to 'About', about_path, class: 'nav-link' %></li>
-        <!-- Other menu items -->
+        
       </ul>
     </nav>
 
