@@ -3,6 +3,12 @@
 <h1 class="heading-primary">Data Collection</h1>
 
 <div class="container-custom">
+
+  <%= form_with(url: search_users_path, method: :get) do |form| %>
+    <%= form.text_field :search, placeholder: "Search by name..." %>
+    <%= form.submit "Search" %>
+  <% end %>
+
   <table class="table-custom">
     <thead>
       <tr>

@@ -1,0 +1,19 @@
+<!-- app/views/users/menu.html.erb -->
+
+<div class="user-menu">
+  <h1>User Menu</h1>
+  <div class="user-details">
+    <p><strong>Name:</strong> <span class="user-name"><%= @user.name %></span></p>
+    <p><strong>Email:</strong> <span class="user-email"><%= @user.email %></span></p>
+  </div>
+
+  <h2>Posts</h2>
+  <div class="user-posts">
+    <% @user.posts.each do |post| %>
+      <div class="post">
+        <h3 class="post-title"><%= post.title %></h3>
+        <p class="post-body"><%= post.body %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
