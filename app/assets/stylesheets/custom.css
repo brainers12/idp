@@ -96,7 +96,7 @@
   }
   
   .nav-top {
-    position: fixed; /* Fixed position */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -127,7 +127,7 @@
   }
   
   .nav-top li a.nav-link:hover {
-    background-color: #ddd; /* Hover background color */
+    background-color: #ddd; 
   }
 
  /* Custom.css - Styles for posts table */
