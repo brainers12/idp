@@ -73,7 +73,7 @@
     pointer-events: none;
   }
 
-  /* Assuming you've added classes 'nav-home' and 'nav-about' to your 'Home' and 'About' links respectively */
+/* classes 'nav-home' and 'nav-about' to your 'Home' and 'About' links  */
 
 .nav-home, .nav-about {
     color: #007bff;
