@@ -134,9 +134,9 @@
 
 /* Style the table itself */
 table {
-    width: 100%; /* Make the table use all available width */
-    border-collapse: collapse; /* Collapse borders */
-    margin-top: 20px; /* Add some spacing from content above */
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
   }
   
   /* Style the table headers */
